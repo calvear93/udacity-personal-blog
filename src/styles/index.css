@@ -1,12 +1,89 @@
 body {
     margin: 0;
     font-size: 16px;
+    font-family: 'RocknRoll One', sans;
     background-size: cover;
     background-color: #fff;
     background-attachment: fixed;
-    font-family: 'RocknRoll One', sans;
     background-image: url(../assets/background.svg);
 }
+
+.page {
+    display: grid;
+    grid-template-areas:
+        "menu content content content news news";
+}
+
+.section {
+    margin: 1em;
+    padding: 1em;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    background: rgba(255, 255, 255, 0.30);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(8.0px);
+    -webkit-backdrop-filter: blur(8.0px);
+}
+
+.menu {
+    grid-area: menu;
+
+    display: grid;
+    grid-template-rows: 2em auto 6em;
+}
+
+.content {
+    grid-area: content;
+}
+
+.news {
+    grid-area: news;
+}
+
+/* tablet screen */
+@media (min-width: 768px) and (max-width: 1281px) {
+    .page {
+        grid-template-areas:
+            "menu menu menu menu menu menu"
+            "content content content content news news";
+    }
+
+    .menu {
+        display: grid;
+        grid-template-columns: minmax(4em, 20%) auto minmax(6em, 20%);
+        grid-template-rows: none;
+    }
+}
+
+/* phone screen */
+@media (max-width: 767px) {
+    .page {
+        grid-template-areas:
+            "menu menu menu menu menu menu"
+            "content content content content content content";
+    }
+
+    .news {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .test {
     margin: 10em;
