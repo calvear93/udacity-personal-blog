@@ -1,12 +1,4 @@
-body {
-    margin: 0;
-    font-size: 16px;
-    font-family: 'RocknRoll One', sans;
-    background-size: cover;
-    background-color: #fff;
-    background-attachment: fixed;
-    background-image: url(../assets/background.svg);
-}
+@import "global.css";
 
 .page {
     display: grid;
@@ -14,9 +6,12 @@ body {
         "menu content content content news news";
 }
 
+/* menu and content section */
 .section {
     margin: 1em;
     padding: 1em;
+    height: fit-content;
+
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.18);
     background: rgba(255, 255, 255, 0.30);
@@ -25,18 +20,31 @@ body {
     -webkit-backdrop-filter: blur(8.0px);
 }
 
+.sticky-menu {
+    position: sticky;
+    top: 1em;
+    max-height: 100vh;
+}
+
+/* menu with categories */
 .menu {
+    z-index: 100;
     grid-area: menu;
 
     display: grid;
     grid-template-rows: 2em auto 6em;
 }
 
+/* page main content */
 .content {
+    z-index: 10;
     grid-area: content;
+    height: 1000px;
 }
 
+/* extra page info */
 .news {
+    z-index: 80;
     grid-area: news;
 }
 
@@ -46,6 +54,10 @@ body {
         grid-template-areas:
             "menu menu menu menu menu menu"
             "content content content content news news";
+    }
+
+    .news {
+        top: 6em;
     }
 
     .menu {
