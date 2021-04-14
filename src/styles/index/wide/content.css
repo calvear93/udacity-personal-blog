@@ -1,0 +1,6 @@
+/* page main content */
+.content {
+    z-index: 10;
+    grid-area: content;
+    height: 1000px;
+}

@@ -1,0 +1,16 @@
+/* phone screen */
+@media (max-width: 767px) {
+    .sticky-menu {
+        position: revert;
+    }
+
+    .page {
+        grid-template-areas:
+            "menu menu menu menu menu menu"
+            "content content content content content content";
+    }
+
+    .news {
+        display: none;
+    }
+}

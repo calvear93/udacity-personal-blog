@@ -1,0 +1,37 @@
+/* tablet screen */
+@media (min-width: 768px) and (max-width: 1281px) {
+    .page {
+        grid-template-areas:
+            "menu menu menu menu menu menu"
+            "content content content content news news";
+    }
+
+    .news {
+        top: 10em;
+    }
+
+    .menu {
+        display: grid;
+        grid-template-columns: minmax(4em, 20%) auto minmax(6em, 20%);
+        grid-template-rows: none;
+
+        max-height: 12.5vh;
+    }
+
+    .menu:hover {
+        max-height: 19em;
+    }
+
+    /* CATEGORIES */
+    .menu .categories {
+        margin-top: 0;
+        max-height: 5em;
+        overflow: hidden;
+    }
+
+    .menu:hover>.categories {
+        overflow: visible;
+        max-height: 19em;
+    }
+
+}

@@ -1,0 +1,5 @@
+/* extra page info */
+.news {
+    z-index: 80;
+    grid-area: news;
+}

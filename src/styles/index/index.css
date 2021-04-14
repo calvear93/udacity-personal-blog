@@ -1,0 +1,6 @@
+@import "../common.css";
+
+/* stylesheets by screen size and component */
+@import "wide/index.css";
+@import "tablet/index.css";
+@import "phone/index.css";

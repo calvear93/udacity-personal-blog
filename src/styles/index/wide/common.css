@@ -1,0 +1,11 @@
+.page {
+    display: grid;
+    grid-template-areas:
+        "menu content content content news news";
+}
+
+.sticky-menu {
+    position: sticky;
+    top: 1em;
+    max-height: 100vh;
+}
