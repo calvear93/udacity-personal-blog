@@ -3,11 +3,7 @@
     .page {
         grid-template-areas:
             "menu menu menu menu menu menu"
-            "content content content content news news";
-    }
-
-    .news {
-        top: 10em;
+            "content content content content content content";
     }
 
     .menu {
@@ -33,5 +29,4 @@
         overflow: visible;
         max-height: 19em;
     }
-
 }

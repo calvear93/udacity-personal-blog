@@ -1,7 +1,7 @@
 .page {
     display: grid;
     grid-template-areas:
-        "menu content content content news news";
+        "menu menu content content content content";
 }
 
 .sticky-menu {
