@@ -1,11 +1,19 @@
 # Udacity Personal Blog
 Personal Blog Website project for React Frontend Web developer nanodegree.
 
-## Pattern CSS Background
+## Resources used
+
+- Material Design Icons
+https://materialdesignicons.com/
+
+- Google Fonts
+https://fonts.google.com/
+
+- Pattern CSS Background
 https://www.svgbackgrounds.com/#sun-tornado
 
-## Glassmorphism
+- Glassmorphism
 https://glassmorphism.com/
 
-## Text Shadow Generator
+- Text Shadow Generator
 https://html-css-js.com/css/generator/text-shadow/
