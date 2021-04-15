@@ -1,1 +1,4 @@
 @import "../common.css";
+
+@import "wide.css";
+@import "tablet.css";

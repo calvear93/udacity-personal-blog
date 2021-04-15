@@ -24,6 +24,12 @@ body {
     -webkit-backdrop-filter: blur(8.0px);
 }
 
+.sticky-menu {
+    position: sticky;
+    top: 1em;
+    max-height: 100vh;
+}
+
 .unselectable {
     user-select: none;
     -webkit-touch-callout: none;

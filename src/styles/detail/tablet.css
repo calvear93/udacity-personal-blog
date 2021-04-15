@@ -1,0 +1,12 @@
+/* tablet screen */
+@media (max-width: 1281px) {
+    .page {
+        grid-template-areas:
+            "back back back back back back"
+            "content content content content content content";
+    }
+
+    .content .footer-text {
+        flex-direction: column;
+    }
+}

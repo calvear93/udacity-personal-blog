@@ -3,9 +3,3 @@
     grid-template-areas:
         "menu menu content content content content";
 }
-
-.sticky-menu {
-    position: sticky;
-    top: 1em;
-    max-height: 100vh;
-}

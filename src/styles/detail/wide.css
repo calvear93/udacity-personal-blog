@@ -1,0 +1,77 @@
+.page {
+    display: grid;
+    grid-template-areas:
+        "back content content content content";
+}
+
+.back-button {
+    grid-area: back;
+    z-index: 100;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 2em;
+    height: 2em;
+    border-radius: 100%;
+    padding: 0.6em;
+}
+
+.back-button a {
+    font-size: 2em;
+
+    color: black;
+}
+
+.back-button a:hover {
+    cursor: pointer;
+    text-shadow:
+        0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff,
+        0 0 20px #0a98fc, 0 0 30px #0a98fc,
+        0 0 40px #0a98fc, 0 0 55px #0a98fc, 0 0 75px #0a98fc;
+}
+
+.content {
+    grid-area: content;
+
+    display: grid;
+    grid-template-areas:
+        "title"
+        "image"
+        "text"
+        "desc";
+
+    padding: 2em;
+}
+
+.content .title {
+    grid-area: title;
+
+    font-size: 2em;
+    font-weight: bold;
+
+    text-align: center;
+    margin: 0 0.6em 0.6em;
+}
+
+.content .detail-img {
+    grid-area: image;
+
+    width: 100%;
+    border-radius: 8px;
+}
+
+.content .main-text {
+    grid-area: text;
+
+    font-size: 1.2em;
+}
+
+.content .footer-text {
+    grid-area: desc;
+
+    font-size: 0.9em;
+
+    display: flex;
+}

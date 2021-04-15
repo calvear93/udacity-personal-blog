@@ -15,12 +15,12 @@
 
 /* the real content */
 .content .stories {
-    padding: 1em 1em .2em;
+    padding: 1em 1em 0.2em;
 }
 
 .content .stories .item {
     display: flex;
-    padding: .6em;
+    padding: 0.6em;
     justify-content: center;
 
     margin-bottom: 2em;
@@ -43,16 +43,16 @@
 }
 
 .content .stories .item .post-link span:before {
-    padding: .6em;
+    padding: 0.6em;
     padding-right: 1em;
 }
 
 .content .stories .item .post-link span:hover {
     cursor: pointer;
     text-shadow:
-        0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF,
-        0 0 20px #0A98FC, 0 0 30px #0A98FC,
-        0 0 40px #0A98FC, 0 0 55px #0A98FC, 0 0 75px #0A98FC;
+        0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff,
+        0 0 20px #0a98fc, 0 0 30px #0a98fc,
+        0 0 40px #0a98fc, 0 0 55px #0a98fc, 0 0 75px #0a98fc;
 }
 
 .content .stories .item .post-img {
@@ -63,7 +63,7 @@
 }
 
 .content .stories .item .post-text {
-    padding: .6em 1.6em;
+    padding: 0.6em 1.6em;
     text-align: justify;
     text-justify: inter-word;
 }
