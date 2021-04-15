@@ -30,6 +30,12 @@ body {
     max-height: 100vh;
 }
 
+.img-cap {
+    font-size: .7em;
+    color: darkslategrey;
+    text-align: center;
+}
+
 .unselectable {
     user-select: none;
     -webkit-touch-callout: none;
