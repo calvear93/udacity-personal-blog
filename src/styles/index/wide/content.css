@@ -13,7 +13,7 @@
     margin: 8px auto 24px 8px;
 }
 
-
+/* the real content */
 .content .stories {
     padding: 1em 1em .2em;
 }
@@ -64,4 +64,6 @@
 
 .content .stories .item .post-text {
     padding: .6em 1.6em;
+    text-align: justify;
+    text-justify: inter-word;
 }
