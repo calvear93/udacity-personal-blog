@@ -3,6 +3,7 @@
     .page {
         grid-template-areas:
             "menu menu menu menu menu menu"
+            "bio bio bio bio bio bio"
             "content content content content content content";
     }
 
@@ -12,5 +13,22 @@
 
     .content .footer-text {
         flex-direction: column;
+    }
+}
+
+/* phablet */
+@media (max-width: 900px) {
+    .bio {
+        flex-direction: column;
+    }
+
+    .bio .avatar {
+        width: auto;
+        height: auto;
+        max-height: 15vh;
+    }
+
+    .bio .title {
+        text-align: center;
     }
 }
