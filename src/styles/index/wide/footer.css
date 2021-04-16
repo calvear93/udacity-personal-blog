@@ -1,0 +1,27 @@
+/* footer styles */
+footer {
+    grid-area: footer;
+
+    display: flex;
+}
+
+footer .message {
+    width: 100%;
+    padding: 0.2em 0.6em;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+footer .social {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+footer .social .icon {
+    width: 4em;
+    padding: 0.2em 0.6em 0;
+}

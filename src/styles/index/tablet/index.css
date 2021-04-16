@@ -2,8 +2,9 @@
 @media (min-width: 768px) and (max-width: 1281px) {
     .page {
         grid-template-areas:
-            "menu menu menu menu menu menu"
-            "content content content content content content";
+            "menu"
+            "content"
+            "footer";
     }
 
     .menu {

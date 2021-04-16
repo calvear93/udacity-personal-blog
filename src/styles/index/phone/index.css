@@ -6,8 +6,9 @@
 
     .page {
         grid-template-areas:
-            "menu menu menu menu menu menu"
-            "content content content content content content";
+            "menu"
+            "content"
+            "footer";
     }
 
     .news {

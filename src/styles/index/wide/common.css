@@ -1,5 +1,6 @@
 .page {
     display: grid;
     grid-template-areas:
-        "menu menu content content content content";
+        "menu menu content content content content"
+        "footer footer footer footer footer footer";
 }
