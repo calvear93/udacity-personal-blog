@@ -2,8 +2,12 @@
 @media (max-width: 1281px) {
     .page {
         grid-template-areas:
-            "back back back back back back"
+            "menu menu menu menu menu menu"
             "content content content content content content";
+    }
+
+    .menu-buttons {
+        flex-direction: row;
     }
 
     .content .footer-text {
