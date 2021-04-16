@@ -11,7 +11,10 @@
             "footer";
     }
 
-    .news {
-        display: none;
+    footer .social {
+        flex-direction: column;
+
+        justify-content: center;
+        align-items: flex-end;
     }
 }
