@@ -38,21 +38,33 @@
 .content .stories .item .post-link {
     text-align: end;
     color: inherit;
-
-    font-size: 2em;
 }
 
-.content .stories .item .post-link span:before {
-    padding: 0.6em;
-    padding-right: 1em;
+.content .stories .item .post-link button {
+    background-color: #589eda;
+    color: white;
+    padding: 16px;
+    border: none;
+    border-radius: 32px;
+    font-size: 1em;
+    margin: 2em 2em 1em
 }
 
-.content .stories .item .post-link span:hover {
+.content .stories .item .post-link button:hover {
     cursor: pointer;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     text-shadow:
         0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff,
         0 0 20px #0a98fc, 0 0 30px #0a98fc,
         0 0 40px #0a98fc, 0 0 55px #0a98fc, 0 0 75px #0a98fc;
+}
+
+.content .stories .item .post-link button:active,
+.content .stories .item .post-link button:focus {
+    outline: none;
+    border: none;
+    outline-style: none;
+    -moz-outline-style: none;
 }
 
 .content .stories .item .post-img {
